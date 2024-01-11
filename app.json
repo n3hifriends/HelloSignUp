@@ -44,15 +44,6 @@
         "backgroundColor": "#191015"
       }
     },
-    "web": {
-      "favicon": "./assets/images/app-icon-web-favicon.png",
-      "splash": {
-        "image": "./assets/images/splash-logo-web.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
-      },
-      "bundler": "metro"
-    },
     "plugins": [
       "expo-localization",
       [
