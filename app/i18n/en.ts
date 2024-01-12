@@ -19,13 +19,6 @@ const en = {
     reset: "RESET APP",
     traceTitle: "Error from %{name} stack",
   },
-  emptyStateComponent: {
-    generic: {
-      heading: "So empty... so sad",
-      content: "No data found yet. Try clicking the button to refresh or reload the app.",
-      button: "Let's try this again",
-    },
-  },
 
   errors: {
     invalidEmail: "Invalid email address.",
@@ -33,13 +26,26 @@ const en = {
   loginScreen: {
     signIn: "Sign In",
     enterDetails:
-      "Enter your details below to unlock top secret info. You'll never guess what we've got waiting. Or maybe you will; it's not rocket science here.",
+      "Enter your details below to unlock top secret info. it's not rocket science here.",
     emailFieldLabel: "Email",
     passwordFieldLabel: "Password",
     emailFieldPlaceholder: "Enter your email address",
     passwordFieldPlaceholder: "Super secret password here",
     tapToSignIn: "Tap to sign in!",
     hint: "Hint: you can use any email address and your favorite password :)",
+  },
+  signUpScreen: {
+    signUp: "Sign Up",
+    enterDetails:
+      "Enter your details below to unlock top secret info. You'll never guess what we've got waiting. Sign-up to know more...",
+    emailFieldLabel: "Email",
+    passwordFieldLabel: "Password",
+    emailFieldPlaceholder: "Enter your email address",
+    passwordFieldPlaceholder: "Super secret password here",
+    passwordConfirmFieldLabel: "Confirm Password",
+    passwordConfirmFieldPlaceholder: "Confirm super secret password here",
+    tapToSignIn: "Sign Up!",
+    hint: "Hint: You can use any email address and your favorite password. Your favourite password should match with confirm password.",
   },
 }
 

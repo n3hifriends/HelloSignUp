@@ -4,11 +4,10 @@ import { Image, ImageStyle, TextStyle, View, ViewStyle } from "react-native"
 import { Text } from "../../app/components"
 import { isRTL } from "../i18n"
 import { useStores } from "../models"
-import { AppStackScreenProps } from "../navigators"
+import { AppStackScreenProps, navigate } from "../navigators"
 import { colors, spacing } from "../theme"
 import { useHeader } from "../utils/useHeader"
 
-const welcomeLogo = require("../../assets/images/logo.png")
 const welcomeFace = require("../../assets/images/welcome-face.png")
 
 interface WelcomeScreenProps extends AppStackScreenProps<"Welcome"> {}
@@ -22,7 +21,9 @@ export const WelcomeScreen: FC<WelcomeScreenProps> = observer(function WelcomeSc
   useHeader(
     {
       rightTx: "common.logOut",
-      onRightPress: logout,
+      onRightPress: () => {
+        navigate("Login")
+      },
     },
     [logout],
   )
@@ -30,7 +31,7 @@ export const WelcomeScreen: FC<WelcomeScreenProps> = observer(function WelcomeSc
   return (
     <View style={$container}>
       <View style={$topContainer}>
-        <Image style={$welcomeLogo} source={welcomeLogo} resizeMode="contain" />
+        <Image style={$welcomeLogo} source={welcomeFace} resizeMode="contain" />
         <Text
           testID="welcome-heading"
           style={$welcomeHeading}
