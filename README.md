@@ -5,20 +5,22 @@ Since Expo being used to develope short and fast application. For this assignmen
 I have existing functionality/component/theme components that I do use in my regular projects using boilerplate.
 Below are the use case of library in short description
 
-React Native - The best cross-platform mobile framework
-React - The most popular UI framework in the world
-TypeScript - Static typechecking
-React Navigation - Performant and consistent navigation framework
-MobX-State-Tree - State ManagementObservable state tree
-MobX-React-Lite - Re-render React performantly
-Expo - Expo modules
-Expo Font - Import custom fonts
-Expo Localization - Internationalization v14 i18n support
-Expo Status Bar - Status bar support
-RN Reanimated - Beautiful and performant animations
-AsyncStorage - State persistence
-Reactotron RN - Inspector/Debugger JS debugging
-Hermes - Fine-tuned JS engine for react-native
-Jest - Test Runner for JS apps
-Maestro - Automate end-to-end UI testing
-date-fns - Excellent date library
+| Library           | Category             | Version | Description                                    |
+| ----------------- | -------------------- | ------- | ---------------------------------------------- |
+| React Native      | Mobile Framework     | v0.72   | The best cross-platform mobile framework       |
+| React             | UI Framework         | v18     | The most popular UI framework in the world     |
+| TypeScript        | Language             | v5      | Static typechecking                            |
+| React Navigation  | Navigation           | v6      | Performant and consistent navigation framework |
+| MobX-State-Tree   | State Management     | v5      | Observable state tree                          |
+| MobX-React-Lite   | React Integration    | v3      | Re-render React performantly                   |
+| Expo              | SDK                  | v49     | Allows (optional) Expo modules                 |
+| Expo Font         | Custom Fonts         | v11     | Import custom fonts                            |
+| Expo Localization | Internationalization | v14     | i18n support (including RTL!)                  |
+| Expo Status Bar   | Status Bar Library   | v1      | Status bar support                             |
+| RN Reanimated     | Animations           | v3      | Beautiful and performant animations            |
+| AsyncStorage      | Persistence          | v1      | State persistence                              |
+| apisauce          | REST client          | v2      | Communicate with back-end                      |
+| Reactotron RN     | Inspector/Debugger   | v3      | JS debugging                                   |
+| Hermes            | JS engine            |         | Fine-tuned JS engine for RN                    |
+| Jest              | Test Runner          | v26     | Standard test runner for JS apps               |
+| Maestro           | Testing Framework    |         | Automate end-to-end UI testing                 |
