@@ -1,6 +1,7 @@
 Hey Reviewer,
 
 This is Nitin.
+Since Expo being used to develope short and fast application. For this assignment purpose I has used the same.
 I have existing functionality/component/theme components that I do use in my regular projects using boilerplate.
 Below are the use case of library in short description
 
